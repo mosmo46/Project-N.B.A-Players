@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(/Image_and_gif/nbabk.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Anton', sans-serif;
+}
+
+#btnandbut {
+  display: flex;
+  justify-content: center;
+}
+
+#button {
+  background-color: #fc0000;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 14px 40px;
+}
+input[type="text"] {
+  width: 40%;
+  padding: 12px 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  letter-spacing: 10px;
+
+}
+#listplayertable {
+  margin-left: auto;
+  margin-right: auto;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: white; */
+  letter-spacing: 2px;
+
+}
+
+th,
+td {
+  padding: 8px 10px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {
+  background-color: #c21d1d;
+}
